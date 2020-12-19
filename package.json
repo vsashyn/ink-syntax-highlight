@@ -16,6 +16,7 @@
 	},
 	"scripts": {
 		"test": "tsc && xo",
+		"build": "tsc && xo",
 		"prepare": "tsc"
 	},
 	"files": [
@@ -30,6 +31,7 @@
 		"react"
 	],
 	"dependencies": {
+		"cli-highlight": "^2.1.9"
 	},
 	"devDependencies": {
 		"@ava/babel": "^1.0.1",
@@ -39,9 +41,9 @@
 		"@vdemedes/prettier-config": "^1.0.0",
 		"ava": "^3.9.0",
 		"eslint-config-xo-react": "^0.23.0",
+		"eslint-plugin-prettier": "^3.3.0",
 		"eslint-plugin-react": "^7.20.0",
 		"eslint-plugin-react-hooks": "^4.0.4",
-		"eslint-plugin-prettier": "^3.3.0",
 		"husky": "^4.2.5",
 		"ink": "^3.0.0-4",
 		"ink-testing-library": "^2.0.0",
@@ -70,7 +72,9 @@
 		"rules": {
 			"react/prop-types": "off"
 		},
-		"ignores": ["./build"]
+		"ignores": [
+			"./build"
+		]
 	},
 	"prettier": "@vdemedes/prettier-config",
 	"husky": {
