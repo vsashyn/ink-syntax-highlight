@@ -45,6 +45,7 @@
 		"eslint-plugin-react": "^7.20.0",
 		"eslint-plugin-react-hooks": "^4.0.4",
 		"husky": "^4.2.5",
+		"import-jsx": "^4.0.0",
 		"ink": "^3.0.0-4",
 		"ink-testing-library": "^2.0.0",
 		"prettier": "^2.0.5",
