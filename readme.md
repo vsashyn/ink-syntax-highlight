@@ -2,8 +2,6 @@
 
 > Synax highlight component for [Ink](https://github.com/vadimdemedes/ink).
 
-## Supported Languages
-
 ## Install
 
 ```
@@ -36,6 +34,6 @@ Language of the source code. If you don't set it yourself, this component will t
 
 ### theme
 
-Type: `cli-highlight.Theme`<br>
+Type: [Theme](https://github.com/felixfbecker/cli-highlight/blob/main/src/theme.ts#L280)<br>
 
-You can write your own theme and pass it as prop. [More info regarding custom theme](https://github.com/felixfbecker/cli-highlight/blob/main/README.md#themes)
+You can write your own theme and pass it as prop. [More info regarding custom theme](https://github.com/felixfbecker/cli-highlight/blob/main/README.md#themes).
