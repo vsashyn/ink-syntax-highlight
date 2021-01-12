@@ -6,7 +6,8 @@ const SyntaxHighlight = require('../build').default;
 const Syntax = () => {
 	return (
 		<SyntaxHighlight
-			code={`import React, {useState, useEffect} from 'react';
+			code={`
+	import React, {useState, useEffect} from 'react';
 	import {render, Text} from 'ink';
 
 	const Counter = () => {
