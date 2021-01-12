@@ -2,6 +2,8 @@
 
 > Synax highlight component for [Ink](https://github.com/vadimdemedes/ink).
 
+![Example image](./media/example.png)
+
 ## Install
 
 ```
