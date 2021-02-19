@@ -1,6 +1,6 @@
 {
 	"name": "ink-syntax-highlight",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Synax highlight component for Ink",
 	"license": "MIT",
 	"repository": "vsashyn/ink-syntax-highlight",
@@ -55,8 +55,8 @@
 		"xo": "^0.32.0"
 	},
 	"peerDependencies": {
-		"ink": "^3.0.0-4",
-		"react": "^16.8.2"
+		"ink": ">=3.0.5",
+		"react": ">=16.8.2"
 	},
 	"ava": {
 		"babel": {
