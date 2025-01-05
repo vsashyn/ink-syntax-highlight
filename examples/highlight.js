@@ -1,7 +1,6 @@
-'use strict';
-const React = require('react');
-const {render} = require('ink');
-const SyntaxHighlight = require('../build').default;
+import React from 'react';
+import {render} from 'ink';
+import SyntaxHighlight from '../build';
 
 const Syntax = () => {
 	return (
