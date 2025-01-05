@@ -10,7 +10,7 @@
 		"url": "github.com/vsashyn"
 	},
 	"type": "module",
-	"main": "build",
+	"exports": "./build/index.js",
 	"types": "build/index.d.ts",
 	"engines": {
 		"node": ">=18"
