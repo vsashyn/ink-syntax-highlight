@@ -9,10 +9,11 @@
 		"email": "sashyn.v@gmail.com",
 		"url": "github.com/vsashyn"
 	},
+	"type": "module",
 	"main": "build",
 	"types": "build/index.d.ts",
 	"engines": {
-		"node": ">=10"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "tsc && xo",
@@ -34,29 +35,29 @@
 		"cli-highlight": "^2.1.9"
 	},
 	"devDependencies": {
-		"@ava/babel": "^1.0.1",
-		"@babel/preset-react": "^7.10.1",
-		"@sindresorhus/tsconfig": "^0.7.0",
-		"@types/react": "^16.9.46",
+		"@ava/babel": "^2.0.0",
+		"@babel/preset-react": "^7.26.3",
+		"@sindresorhus/tsconfig": "^7.0.0",
+		"@types/react": "^18.3.18",
 		"@vdemedes/prettier-config": "^1.0.0",
-		"ava": "^3.9.0",
+		"ava": "^6.2.0",
 		"eslint-config-xo-react": "^0.23.0",
-		"eslint-plugin-prettier": "^3.3.0",
+		"eslint-plugin-prettier": "^3.4.1",
 		"eslint-plugin-react": "^7.20.0",
 		"eslint-plugin-react-hooks": "^4.0.4",
 		"husky": "^4.2.5",
 		"import-jsx": "^4.0.0",
-		"ink": "^3.0.0-4",
+		"ink": "^5.1.0",
 		"ink-testing-library": "^2.0.0",
 		"prettier": "^2.0.5",
 		"pretty-quick": "^2.0.1",
-		"react": "^16.8.2",
-		"typescript": "^3.9.5",
+		"react": "^18.3.1",
+		"typescript": "^5.7.2",
 		"xo": "^0.32.0"
 	},
 	"peerDependencies": {
-		"ink": "^3.0.0-4",
-		"react": "^16.8.2"
+		"ink": "^5.1.0",
+		"react": "^18.3.1"
 	},
 	"ava": {
 		"babel": {
