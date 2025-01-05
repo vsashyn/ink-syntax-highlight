@@ -3,9 +3,9 @@ import {Text} from 'ink';
 import {highlight, Theme} from 'cli-highlight';
 
 export interface Props {
-	code: string;
-	language?: string;
-	theme?: Theme;
+	readonly code: string;
+	readonly language?: string;
+	readonly theme?: Theme;
 }
 /**
  * SyntaxHighlight.
