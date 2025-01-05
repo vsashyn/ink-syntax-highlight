@@ -1,6 +1,6 @@
 {
 	"name": "ink-syntax-highlight",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Synax highlight component for Ink",
 	"license": "MIT",
 	"repository": "vsashyn/ink-syntax-highlight",
